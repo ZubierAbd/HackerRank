@@ -19,7 +19,10 @@ function sherLockAndTheValidString(s) {
         }
     }
     //Checks 
-    //If there are 2 max values wh
+    //If there are 2 max values which are different from min values return No
+    //If there is one max value which is > 1 different from min value return No
+    //If there is one min value which is different from min value delete min value from map 
+    //If there is one max value and 
 
     console.log(mapS)
 }
