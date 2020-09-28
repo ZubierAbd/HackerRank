@@ -102,7 +102,21 @@ Structural directives are responsible for HTML layout. They shape or reshape the
 
 Structural directives are easy to recognize. An asterisk (*) precedes the directive attribute name as in this example.
 
+**** Possible interview quesiton that might come up 
 
+What is the different between hiding something using 'display none' and using NGIF. When you hide an element, that element and all of its descendants remain in the DOM. All components for those elements stay in memory and Angular may continue to check for changes. You could be holding onto considerable computing resources and degrading performance unnecessarily.
+
+When you hide an element, that element and all of its descendants remain in the DOM. All components for those elements stay in memory and Angular may continue to check for changes. You could be holding onto considerable computing resources and degrading performance unnecessarily.
+
+It also protects against null inputs which show/hide doesn't do very well. 
+
+##### NG FOR 
+
+NgFor is a repeater directive—a way to present a list of items. You define a block of HTML that defines how a single item should be displayed and then you tell Angular to use that block as a template for rendering each item in the list. The text assigned to *ngFor is the instruction that guides the repeater process.
+
+You can also apply an NgFor to a component element, as in the following example.
+
+<app-item-detail *ngFor="let item of items" [item]="item"></app-item-detail>
 
 ### Structural Directives 
 
