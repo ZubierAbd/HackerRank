@@ -118,5 +118,18 @@ You can also apply an NgFor to a component element, as in the following example.
 
 <app-item-detail *ngFor="let item of items" [item]="item"></app-item-detail>
 
-### Structural Directives 
+There is also something called ngFor TrackBy which lets you keep track of the items which lets you populate large lists and stuff 
 
+
+NG Switch Case is also another directive that we can use. This is useful if we want to make it so that we show different DOM elemetns based on differnet  
+
+We can also create our own directives
+
+we use the ng generate directive 
+
+### Dependency Injection 
+
+Dependencies are services or objects that a class needs to perform its function. DI is a coding pattern in which a class asks for dependencies from external sources rather than creating them itself.
+
+
+### Angular Authentication 
